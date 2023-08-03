@@ -5,9 +5,13 @@ window.onload = function() {
 
         let startMsg = document.getElementById("start");
         startMsg.setAttribute("class", "hidden");
-        
         let nxtMsg = document.getElementById("nxt");
         nxtMsg.removeAttribute("class");
+        const animal = document.getElementById("animal");
+
+        if(animal === monkey) {
+            
+        }
+
     }
 }
-
